@@ -1,0 +1,18 @@
+ml_models: 
+ - LR
+ - SVM
+ - XGBoost
+ - LightGBM
+ - RandomForest
+ - ExtraTrees
+#  - MLP
+data_root: D:\20240103-JiYang\Pathology
+label_file: ../data/group.csv
+# label_file: D:\20240103-JiYang\split_info\label-RND-4.csv
+label_mapping: 
+  0: non-EGFR
+  1: EGFR
+metric_spec: AUC
+metric_spec_ids: 
+metric_spec_agg: mean
+DISABLE_VIDEO: True

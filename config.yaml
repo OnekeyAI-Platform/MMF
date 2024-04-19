@@ -1,0 +1,18 @@
+data_root: Y:\20240103-JiYang
+radio_dir: Y:\20240103-JiYang\Radiology
+
+task_column: label
+clinic_file: Y:\20240103-JiYang\Clinical.csv
+label_file: group.csv
+# label_file: D:\20240103-JiYang\split_info\label-RND-4.csv
+model_root: Y:\20240103-JiYang\Radiology\models
+ml_models:
+ - LR
+ - SVM
+ - XGBoost
+ - LightGBM
+ - RandomForest
+ - ExtraTrees
+display.font: 12
+display.precision: 3
+DISABLE_VIDEO: True
